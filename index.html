@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- Using the semantic tags instead of classes helps to make sure all future pages match the same look and feel as the first page -->
     <!-- Header element is added in place of a div with class header as it is a sematic element which is prefered tag for SEO -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -25,8 +26,9 @@
             </ul>
         </nav>
     </header>
-    <!-- Placing the image directly, doesnt make sense to have a section devoted soley to an image, and a div with class named hero does not help to describe its purpose -->
-    <img class="background-image" src="./assets/images/digital-marketing-meeting.jpg" alt="Office meeting between a work team">
+    <!-- I originally wanted to just put the image here but thought it would be better to have a section as that is what the lesson I feel is teaching-->
+    <section class="background-image"  alt="Office meeting between a work team"></section>
+    <!-- This area I am putting to an article of articles because that is what the w3 school samentic elements looks like but i feel that is just an idea and there is no "rule" based on the section about nested section verse articles-->
     <article class="content">
         <article id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Contains a picture of a notebook with all parts of a properly search engine optimization website"/>
@@ -50,6 +52,7 @@
             </p>
         </article>
     </article>
+    <!-- This area is a narrow bar with shot messages similar to the rest of the page and fits well with an aside  -->
     <aside>
         <section>
             <h3>Lead Generation</h3>
@@ -73,6 +76,7 @@
             </p>
         </section>
     </aside>
+    <!-- Last item acts as the footer and is named as such -->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
